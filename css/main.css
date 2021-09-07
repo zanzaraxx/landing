@@ -1,0 +1,532 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif !important;
+  overflow-x: hidden;
+  user-select: none;
+  margin: 0px;
+}
+
+h2 {
+  color: #666;
+}
+
+.navbar {
+  position: fixed;
+  background-color: #383e4c;
+  height: 80px;
+  width: 100%;
+}
+
+.container {
+  display: block;
+  text-align: center;
+  height: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+ul {
+  display: inline-flex;
+  text-align: center;
+  margin: 0;
+  padding: 16px 0 0;
+}
+
+li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.navbar a {
+  background: #383e4c none repeat scroll 0 0;
+  border: 1px solid #646d7c;
+  color: #fff;
+  font-size: 20px;
+  padding: 15px 25px;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+}
+
+.navbar a:active,
+.navbar a:visited {
+  color: #fff;
+}
+
+.navbar a:hover,
+.navbar a:focus {
+  background-color: #49505f;
+  outline: none;
+}
+
+header {
+  background-image: url(../img/bg-1.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 235px 0;
+  width: auto;
+}
+
+h1,
+h4 {
+  color: #fff;
+  font-size: 70px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #000;
+  margin: 20px 0 10px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+h4 {
+  font-size: 25px;
+  text-shadow: 1px 1px #333;
+  text-transform: none;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.card {
+  background-color: #f2f2f2;
+}
+
+.card a:hover{
+  background-color: #e6e6e6;
+  transition: all 0.4s ease;
+}
+
+.card a {
+  transition: all 0.4s ease;
+}
+
+.aboutUsInThreeColumns {
+  padding: 70px 0;
+  display: flex;
+}
+
+.flexCard {
+  display: flex;
+  gap: 15px;
+}
+
+.aboutUsInThreeColumns .card {
+  min-height: 1px;
+  width: 100%;
+}
+
+.content {
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border: none;
+  vertical-align: middle;
+}
+
+.content > p {
+  text-align: left;
+  padding: 0 5px 0 25px;
+  margin: 16px 0 0 0;
+  font-size: 14px;
+  line-height: 1.6em;
+}
+
+
+.content > h2 {
+  text-align: left;
+  padding-left: 25px;
+}
+
+.aboutUsInThreeColumns .firstContentCard > h2 {
+  color: #178a27;
+}
+
+.aboutUsInThreeColumns .secondContentCard > h2 {
+  color: #1686c1;
+}
+
+.aboutUsInThreeColumns .thirdContentCard > h2 {
+  color: #852406;
+}
+
+.aboutUsInThreeColumns a {
+  display: block;
+  background-color: #178a27;
+  border-radius: 7px;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 0;
+  margin: 20px auto;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+/* .aboutUsInThreeColumns .content > a:hover {
+  box-shadow: 0 0 5px 5px #ec54544f;
+} */
+
+.aboutUsInThreeColumns .content > a:focus {
+  outline: none;
+  box-shadow: 0 0 3px 3px #33333352;
+}
+
+.aboutUsInThreeColumns .content > .firstColumBtn {
+  background-color: #178a27;
+}
+
+.aboutUsInThreeColumns .firstContentCard a:hover {
+  box-shadow: 0 0 5px 5px #63da7375;
+}
+
+.aboutUsInThreeColumns .content > .secondColumBtn {
+  background-color: #1686c1;
+}
+
+.aboutUsInThreeColumns .secondContentCard a:hover {
+  box-shadow: 0 0 5px 5px #51addf6b;
+}
+
+.aboutUsInThreeColumns .content > .thirdColumBtn {
+  background-color: #852406;
+}
+
+.aboutUsInThreeColumns .thirdContentCard a:hover {
+  box-shadow: 0 0 5px 5px #ec54544f;
+}
+
+.aboutUsInTwoColumns {
+  display: flex;
+  padding: 0;
+  margin-bottom: 70px;
+}
+
+.aboutUsInTwoColumns .card {
+  min-height: 1px;
+  width: 100%;
+}
+
+.aboutUsInTwoColumns .secondContentCard a {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  float: right;
+  color: #666666;
+  font-size: 14px;
+  padding: 10px 20px;
+  margin: 10px 50px 10px 0;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.aboutUsInTwoColumns .secondContentCard a:hover {
+  background-color: #e6e6e6;
+  transition: all 0.4s ease;
+} 
+
+.aboutUsInTwoColumns .firstContentCard p {
+  margin-bottom: 20px;
+}
+
+.parallaxBackgroundService {
+  display: flex;
+  background-image: url(../img/bg-2.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 100%;
+}
+
+.text {
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  margin: 100px 0px;
+}
+
+.text h1 {
+  font-size: 36px;
+  text-transform: capitalize;
+  text-shadow: 2px 2px #aaa;
+}
+
+.text p {
+  color: #fff;
+  font-size: 18px;
+}
+
+.testimornialArea {
+  display: flex;
+  margin: 70px 0;
+}
+
+.testimornialAreaСolumn {
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.fourColumn {
+  display: flex;
+  gap: 15px;
+}
+
+.fourColumn .card {
+  min-height: 1px;
+  width: 100%;
+}
+
+.testimornialArea p {
+  font-size: 14px;
+  text-align: left;
+  padding: 0px 20px 10px;
+  margin-bottom: 12px;
+}
+
+.testimornialArea a {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  color: #666;
+  font-size: 14px;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.oneBigColumn {
+  display: flex;
+  gap: 15px;
+}
+
+.testimornialAreaOneColumn {
+  display: flex;
+}
+
+.testimornialAreaOneColumn .card {
+  min-height: 1px;
+  width: 100%;
+}
+
+.contentOneBigColumn {
+  background-color: #f2f2f2;
+  padding: 30px;
+  float: left;
+  margin-bottom: 70px;
+}
+
+.contentOneBigColumn p {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6em;
+  margin: 0 0 10px;
+  text-align: left;
+}
+
+.contentOneBigColumn h2 {
+  text-align: left;
+  color: #666;
+}
+
+.contentOneBigColumn a {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #cdcdcd;
+  border-radius: 10px;
+  color: #666;
+  display: inline-block;
+  font-size: 18px;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+
+.oneBigCard {
+  width: 100%;
+}
+
+.contactForm {
+  background-image: url(../img/bg-3.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.contactForm .container {
+  max-width: 700px;
+}
+
+.contactContent {
+  background: #f2f2f266 none repeat scroll 0 0;
+  border-radius: 5px;
+  width: 100%;
+  color: #000;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding: 20px 0;
+}
+
+.dataContactForm {
+  display: flex;
+}
+
+.messageForm {
+  flex-direction: column;
+  width: 50%;
+}
+
+.dataForm {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.formControl {
+  display: block;
+  border: none;
+  background: #f2f2f266;
+  width: 95%;
+  height: 34px;
+  padding: 3px 6px;
+  font-size: 14px;
+  color: #000;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.formControl::placeholder {
+  color: #000;
+}
+
+input {
+  outline: none;
+}
+
+textarea {
+  float: right;
+  resize: none;
+}
+
+button {
+  float: left;
+  background: #262628 none repeat scroll 0 0;
+  color: #fff;
+  margin: 10px 0 20px 5px;
+  padding: 13px 30px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  border-color: #ccc;
+  transition: all 0.4s ease;
+}
+
+button:hover {
+  background-color: #e6e6e6;
+  transition: all 0.4s ease;
+  color: #000;
+}
+
+.messageForm .formControl {
+  height: 148px;
+  outline: none;
+}
+
+footer {
+  margin: 83px 0 0 0;
+}
+
+footer h1 {
+  color: #666;
+  font-size: 32px;
+  font-style: italic;
+  margin-bottom: 25px;
+  margin-top: 35px;
+  text-shadow: none;
+}
+
+footer p {
+  font-size: 14px;
+  line-height: 1.6em;
+  margin: 0;
+  color: #999;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+textarea::placeholder {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.my {
+  text-align: center;
+  bottom: 0;
+  color: #666;
+  font-size: 12px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  line-height: 1.6em;
+  margin: 70px 0 0 0;
+  border-top: 1px solid #cccccc91;
+  padding: 5px 0;
+}
+
+
+
+
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  ul {
+    padding: 23px;
+  }
+  li {
+    padding: 6px;
+  }
+  a {
+    font-size: 16px;
+  }
+}
+
+/* @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .aboutUsInThreeColumns > .container {
+    width: 960px;
+  }
+} */
+
+/* @media only screen and (max-width: 1024px) {
+  header,
+  section#services-area,
+  section#contact-area {
+    background-attachment: scroll;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+} */
+
+.testGround {
+  height: 500px;
+}
